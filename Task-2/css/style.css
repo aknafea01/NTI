@@ -1,0 +1,179 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: #010127;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.clr {
+  clear: both;
+}
+.fixed-bar {
+  padding: 15px 25px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  width: 100%;
+  border-bottom: 1px solid #bebdbd;
+  z-index: 5;
+}
+.fixed-bar .title {
+  float: left;
+  font-size: 20px;
+}
+.fixed-bar ul {
+  float: right;
+  margin-right: 40px;
+}
+.fixed-bar ul li {
+  display: inline-block;
+  margin: 0 8px;
+}
+.fixed-bar ul a {
+  font-size: 20px;
+}
+/*****************************/
+.header {
+  position: relative;
+}
+.header h1 {
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  font-size: 50px;
+  color: #757575;
+}
+.header img {
+  width: 100%;
+}
+/****************************/
+.sec-1 {
+  margin-top: 20px;
+  padding: 80px;
+  height: 70vh;
+  border-bottom: 1px solid #7575754d;
+}
+.sec-1 img {
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+.sec-1 .text {
+  float: left;
+  height: 100%;
+  width: 50%;
+  text-align: center;
+}
+h2 {
+  color: #010127;
+  font-size: 33px;
+  letter-spacing: 4px;
+  margin: 15px 0 45px;
+  font-weight: 400;
+}
+h4 {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 9px;
+  color: #010127;
+  margin: 15px 0 45px;
+}
+.sec-1 .text .details {
+  text-align: left;
+  margin: 30px 50px;
+  font-size: 20px;
+  color: #010127;
+}
+.sec-1 .text .details span {
+  background-color: #8888883f;
+  padding: 2px 10px;
+}
+.sec-1 .text p {
+  text-align: left;
+  margin: 30px 50px;
+  font-size: 20px;
+  color: #747474;
+}
+/**********************************/
+.sec-2 {
+  margin-top: 20px;
+  padding: 80px;
+  height: 80vh;
+  border-bottom: 1px solid #7575754d;
+}
+.sec-2 img {
+  float: right;
+  width: 50%;
+  height: 100%;
+}
+.sec-2 .text {
+  float: right;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+}
+
+.sec-2 .text h4 {
+  color: #010127;
+  font-size: 23px;
+  letter-spacing: 5px;
+  text-align: left;
+  font-weight: 400;
+  margin: 15px 0;
+}
+.sec-2 .text p {
+  color: #888;
+  font-size: 17px;
+  text-align: left;
+  font-weight: 400;
+  margin: 20px 0;
+}
+/********************************/
+.contact {
+  margin-top: 20px;
+  padding: 100px;
+  height: 80vh;
+  border-bottom: 1px solid #7575754d;
+}
+.contact p {
+  color: #07072b;
+  font-size: 18px;
+}
+.contact h4 {
+  letter-spacing: 1px;
+  color: #0b4f98;
+  font-size: 26px;
+  margin: 20px 0;
+}
+.contact input {
+  margin: 20px 0;
+  height: 40px;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #07072b;
+}
+.contact input.submit {
+  width: auto;
+  height: auto;
+  border: none;
+  font-size: 25px;
+  padding: 15px 30px;
+  border-radius: 10px;
+}
+.footer {
+  padding: 40px;
+  text-align: center;
+  background-color: #F2F4FF;
+  font-size: 28px;
+}
+.footer a {
+  text-decoration: underline;
+}

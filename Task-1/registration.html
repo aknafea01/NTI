@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet" />
+          <style>
+            body {
+                font-family: "Montserrat", sans-serif;
+            }
+            input:not([type="radio"])
+            {
+                height: 30px; border: 1px solid #23272b;border-radius: 5px; padding-left: 15px;
+                width: 350px;
+            }
+            input {
+                margin: 10px;
+            }
+            input.btn {
+                background-color: #23272b;
+                border: none;
+                color: #f9f9f9;
+                width: 150px;
+                height: 40px;
+                border-radius: 12px;
+                font-size: 20px;
+            }
+
+          </style>
+        <title>Registration Page</title>
+      </head>
+<body style="text-align: center; background-color: #FBFBFB;">
+    <h1>Registration Form</h1>
+    <form action="">
+        <table style="width: 80%;margin: auto;">    
+            <tr>
+                <td>
+                    <Label>First Name</Label>
+                </td>
+                <td>
+                    <input type="text" name="fName">
+                </td>
+            </tr>   
+            <tr>
+                <td>
+                    <Label>Last  Name</Label>
+                </td>
+                <td>
+                    <input type="text" name="lName">
+                </td>
+            </tr>   
+            <tr>
+                <td>
+                    <Label>Nick  Name</Label>
+                </td>
+                <td>
+                    <input type="text" name="nName">
+                </td>
+            </tr>   
+            <tr>
+                <td>
+                    <Label>Email</Label>
+                </td>
+                <td>
+                    <input type="email" name="email">
+                </td>
+            </tr>   
+            <tr>
+                <td>
+                    <Label>Password</Label>
+                </td>
+                <td>
+                    <input type="password" name="password">
+                </td>
+            </tr>   
+            <tr>
+                <td>
+                    <Label>Date Of Birth</Label>
+                </td>
+                <td>
+                    <input type="date" name="birthDay">
+                </td>
+            </tr>   
+            <tr>
+                <td>
+                    <Label>Gender</Label>
+                </td>
+                <td>
+                    <input type="radio" name="gender" value="Male">
+                    <label>Male</label>
+                    <input type="radio" name="gender" value="Femal">
+                    <label>Female</label>
+                    <input type="radio" name="gender" value="Alien">
+                    <label>Alien</label>
+                </td>
+            </tr>   
+            <tr>
+                <td>
+                    <Label>Mobile</Label>
+                </td>
+                <td>
+                    <input type="number" name="Mobile">
+                </td>
+            </tr>   
+            <tr>
+                <td>
+                    <Label>Address</Label>
+                </td>
+                <td>
+                    <textarea name="address" cols="41" rows="8" id="" style="padding: 15px;"></textarea>
+                </td>
+            </tr>   
+            <tr>
+                <td>
+                </td>
+                <td>
+                    <input type="submit" class="btn" value="submit">
+                    <input type="reset" class="btn" value="reset">
+                </td>
+            </tr>   
+        </table>
+    </form>
+    
+</body>
+</html>
