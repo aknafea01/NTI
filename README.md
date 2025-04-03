@@ -6,4 +6,5 @@
 - [Task 3 Enhanced](https://aknafea01.github.io/NTI/Task-3-Enhanced)
 - [Task 4](https://aknafea01.github.io/NTI/Task-4)
 - [Task 5](https://aknafea01.github.io/NTI/Task-5)
+- [Task 5+](https://aknafea01.github.io/NTI/Task-5+)
 - [Typing Animation](https://aknafea01.github.io/NTI/Typing-Animation)

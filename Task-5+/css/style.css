@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Montserrat", sans-serif;
+}
+ul {
+    list-style: none;
+}
+.navbar-brand {
+    font-weight: 600;
+    
+}
+.hero-image {
+    background-image: url(../images/me.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.vh-50 {
+    min-height: 50vh;
+}
+.vh-80 {
+    min-height: 80vh;
+}
+.about {
+    background-image: url(../images/light_dot.jpg);
+    background-position: center;
+    h2 {
+        color: #B3B3B3;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    h3 {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    img {
+        width: 100%;
+    }
+}
+.services {
+    background-image: url(../images/dark_dot.jpg);
+    background-position: center;
+    .ancor{
+        left: 50%;
+        top: 0;
+        transform: translate(-50%,-50%);
+        font-size: 50px;
+        background-color: #fff;
+        width: 100px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+    }
+    .cards {
+        display: flex;
+        row-gap: 30px;
+        justify-content: space-between;
+    }
+    .col-custom {
+        width: 32%;
+    }
+}
+@media (max-width: 768px) { 
+    .services {
+        .col-custom {
+            width: 100%;
+        }
+    }
+
+ }
+ .testimonial {
+    margin: 30px;
+ }
+ .testimonial .carousel-inner .carousel-item {
+    min-height: 350px;
+    padding: 40px;
+ }
+.testimonial .carousel-inner .carousel-item img {
+    width: 120px !important;
+    height: 120px !important;
+    border-radius: 50%;
+    margin: auto;
+}
+.testimonial .carousel .carousel-indicators {
+    margin-top: 50px !important;
+}
+.testimonial .carousel .carousel-indicators button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+}
+.testimonial .carousel .carousel-caption {
+    margin: 20px !important;
+}
+.testimonial .carousel .carousel-indicators button:nth-child(1){
+    background-image: url(../images/testimonial-2.jpg);
+}
+.testimonial .carousel .carousel-indicators button:nth-child(2){
+    background-image: url(../images/testimonial-4.jpg);
+}
+.testimonial .carousel .carousel-indicators button:nth-child(3){
+    background-image: url(../images/2\(1\).jpg);
+}
+.nav-pills .nav-item .nav-link {
+    color: #333;
+    position: relative;
+}
+.nav-pills .nav-item .nav-link::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0%;
+    height: 1px;
+    z-index: 100;
+    background-color: rgb(156, 8, 8);
+    transition: 0.5s;
+}
+.nav-pills .nav-item .nav-link.active::before {
+    width: 80%;
+}
+.nav-pills .nav-item .nav-link.active  {
+    background-color: transparent;
+    color: #0A0A0A ;
+    border-radius: 0;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    color: black;
+}
+.tab-content .card {
+    position: relative;
+}
+.tab-content .card .items {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 95%;
+    height: 95%;
+    background-color: #ffffff00;
+    z-index: 0;
+    transition: 0.5s;
+    opacity: 0;
+}
+.tab-content .card:hover .items {
+    background-color: #ffffffdc;
+
+    opacity: 1;
+}
+.tab-content .card .items > * {
+    transition: 0.5s;
+    margin: 20px;
+}
+.tab-content .card:hover .items h3 {
+    transform: translateY(15px);
+}
+.tab-content .card:hover .items h3 + * {
+    transform: translateY(-15px);
+}
