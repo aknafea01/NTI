@@ -9,3 +9,4 @@
 - [Task 5+](https://aknafea01.github.io/NTI/Task-5+)
 - [Typing Animation](https://aknafea01.github.io/NTI/Typing-Animation)
 - [Tempo Template](https://aknafea01.github.io/NTI/Tempo)
+- [CRUD](https://aknafea01.github.io/NTI/CRUD)
