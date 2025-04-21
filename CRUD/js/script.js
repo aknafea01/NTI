@@ -67,7 +67,7 @@ function search() {
         <td>${i}</td>
        <td>${allProducts[i].title.replace(
          new RegExp(searchInput.value, "i"),
-         (match) => `<span style='color:#52489C'>${match}</span>`
+         (match) => `<span style='color:#61C9A8'>${match}</span>`
        )}</td>
         <td>${allProducts[i].price}</td>
         <td>${allProducts[i].category}</td>
