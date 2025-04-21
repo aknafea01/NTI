@@ -72,3 +72,18 @@ table th::first-letter {
   color: #ff6b6b;
   font-weight: 600;
 }
+.text-wrapper i {
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: -30px;
+  font-size: 25px;
+}
+.bi-patch-exclamation-fill {
+  color: #E54B4B;
+}
+.bi-patch-check-fill {
+  display: none;
+  color: #61C9A8;
+}
